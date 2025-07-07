@@ -1,0 +1,118 @@
+[
+  {
+    "id": "1",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Software",
+    "price": 3799,
+    "description": "A handbook of agile software craftsmanship that teaches principles of writing clean, readable code.",
+    "image": "/images/clean-code.jpg",
+    "stock": 15,
+    "ratings": [
+      { "userId": "1", "rating": 5, "review": "Excellent book for any developer!" },
+      { "userId": "2", "rating": 4, "review": "Very informative and practical." }
+    ],
+    "averageRating": 4.5
+  },
+  {
+    "id": "2",
+    "title": "Database System Concepts",
+    "author": "Abraham Silberschatz",
+    "category": "Database",
+    "price": 7499,
+    "description": "Comprehensive introduction to database systems with practical examples and exercises.",
+    "image": "/images/database-concepts.jpg",
+    "stock": 8,
+    "ratings": [
+      { "userId": "3", "rating": 5, "review": "Best database book ever!" },
+      { "userId": "1", "rating": 4, "review": "Great theoretical foundation." }
+    ],
+    "averageRating": 4.5
+  },
+  {
+    "id": "3",
+    "title": "Design Patterns",
+    "author": "Gang of Four",
+    "category": "Software",
+    "price": 4599,
+    "description": "Elements of reusable object-oriented software design patterns.",
+    "image": "/images/design-patterns.jpg",
+    "stock": 12,
+    "ratings": [
+      { "userId": "2", "rating": 5, "review": "Essential for OOP developers." }
+    ],
+    "averageRating": 5.0
+  },
+  {
+    "id": "4",
+    "title": "Software Architecture in Practice",
+    "author": "Len Bass",
+    "category": "Architecture",
+    "price": 5699,
+    "description": "Comprehensive guide to software architecture principles and practices.",
+    "image": "/images/software-architecture.jpg",
+    "stock": 6,
+    "ratings": [
+      { "userId": "1", "rating": 4, "review": "Good insights into architecture patterns." }
+    ],
+    "averageRating": 4.0
+  },
+  {
+    "id": "5",
+    "title": "English Grammar in Use",
+    "author": "Raymond Murphy",
+    "category": "English",
+    "price": 2799,
+    "description": "Self-study reference and practice book for intermediate learners of English.",
+    "image": "/images/english-grammar.jpg",
+    "stock": 20,
+    "ratings": [
+      { "userId": "4", "rating": 5, "review": "Perfect for learning English grammar." },
+      { "userId": "2", "rating": 4, "review": "Clear explanations and examples." }
+    ],
+    "averageRating": 4.5
+  },
+  {
+    "id": "6",
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "category": "Software",
+    "price": 3399,
+    "description": "A deep dive into JavaScript's most useful features and best practices.",
+    "image": "/images/js-good-parts.jpg",
+    "stock": 10,
+    "ratings": [
+      { "userId": "3", "rating": 5, "review": "Must-read for JavaScript developers." }
+    ],
+    "averageRating": 5.0
+  },
+  {
+    "id": "7",
+    "title": "Building Microservices",
+    "author": "Sam Newman",
+    "category": "Architecture",
+    "price": 4399,
+    "description": "Designing fine-grained systems for modern applications.",
+    "image": "/images/microservices.jpg",
+    "stock": 7,
+    "ratings": [
+      { "userId": "1", "rating": 4, "review": "Great introduction to microservices." },
+      { "userId": "4", "rating": 5, "review": "Practical examples and case studies." }
+    ],
+    "averageRating": 4.5
+  },
+  {
+    "id": "8",
+    "title": "SQL Performance Explained",
+    "author": "Markus Winand",
+    "category": "Database",
+    "price": 3699,
+    "description": "Everything developers need to know about SQL performance optimization.",
+    "image": "/images/sql-performance.jpg",
+    "stock": 9,
+    "ratings": [
+      { "userId": "2", "rating": 5, "review": "Excellent for SQL optimization." }
+    ],
+    "averageRating": 5.0
+  }
+]

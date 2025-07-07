@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "email": "john@example.com",
+    "password": "$2b$10$.jwPoYf2sl3EGSvy/viGD.VO.RhdZhZNQZJZKAE5XfBbbKvDotLkW",
+    "name": "John Doe",
+    "contactNumber": "+1-555-0123",
+    "shippingAddress": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "createdAt": "2024-01-15T08:30:00Z"
+  },
+  {
+    "id": "2",
+    "email": "jane@example.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "name": "Jane Smith",
+    "contactNumber": "+1-555-0456",
+    "shippingAddress": {
+      "street": "456 Oak Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90210",
+      "country": "USA"
+    },
+    "createdAt": "2024-02-01T10:15:00Z"
+  },
+  {
+    "id": "3",
+    "email": "mike@example.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "name": "Mike Johnson",
+    "contactNumber": "+1-555-0789",
+    "shippingAddress": {
+      "street": "789 Pine St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "createdAt": "2024-02-15T14:45:00Z"
+  },
+  {
+    "id": "4",
+    "email": "sarah@example.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "name": "Sarah Wilson",
+    "contactNumber": "+1-555-0234",
+    "shippingAddress": {
+      "street": "234 Elm St",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101",
+      "country": "USA"
+    },
+    "createdAt": "2024-03-01T09:20:00Z"
+  },
+  {
+    "id": "1751907002165gh49sezaj",
+    "email": "av161678@gmail.com",
+    "password": "$2b$10$gtKz1qYCV/jI6oNcKlQnU.kxLmWYVmWTAa0K3giIGtMrLMDjBL2fa",
+    "name": "Ashwani Vishwakarma",
+    "contactNumber": "8577036419",
+    "shippingAddress": {
+      "street": "Varanasi near kirahiya Chauraha Varanasi",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "zipCode": "221010",
+      "country": "USA"
+    },
+    "createdAt": "2025-07-07T16:50:02.165Z"
+  }
+]
