@@ -46,8 +46,8 @@ export async function GET(request: NextRequest) {
     // Apply sorting
     if (sortBy) {
       books.sort((a, b) => {
-        let aValue: any;
-        let bValue: any;
+        let aValue: string | number;
+        let bValue: string | number;
 
         if (sortBy === 'rating') {
           aValue = a.averageRating;
@@ -57,7 +57,7 @@ export async function GET(request: NextRequest) {
           bValue = b[sortBy];
         }
 
-        if (typeof aValue === 'string') {
+        if (typeof aValue === 'string' && typeof bValue === 'string') {
           aValue = aValue.toLowerCase();
           bValue = bValue.toLowerCase();
         }

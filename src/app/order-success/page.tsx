@@ -16,11 +16,11 @@ export default function OrderSuccessPage() {
         </div>
 
         <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-8">
-          <h2 className="text-lg font-semibold text-green-800 mb-2">What's Next?</h2>
+          <h2 className="text-lg font-semibold text-green-800 mb-2">What&apos;s Next?</h2>
           <ul className="text-sm text-green-700 space-y-1 text-left">
-            <li>• You'll receive an order confirmation email shortly</li>
+            <li>• You&apos;ll receive an order confirmation email shortly</li>
             <li>• Your books will be shipped within 1-2 business days</li>
-            <li>• You'll get a tracking number once your order ships</li>
+            <li>• You&apos;ll get a tracking number once your order ships</li>
             <li>• Delivery typically takes 3-5 business days</li>
           </ul>
         </div>

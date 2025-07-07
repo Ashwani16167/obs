@@ -68,7 +68,7 @@ export default function RegisterPage() {
     }
 
     try {
-      const { confirmPassword, ...registrationData } = formData;
+      const { confirmPassword: _confirmPassword, ...registrationData } = formData;
       const success = await register(registrationData);
       if (success) {
         router.push('/');

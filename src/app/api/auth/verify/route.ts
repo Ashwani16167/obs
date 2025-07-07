@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    const { password: _, ...userWithoutPassword } = user;
+    const { password: _password, ...userWithoutPassword } = user;
 
     return NextResponse.json({
       success: true,

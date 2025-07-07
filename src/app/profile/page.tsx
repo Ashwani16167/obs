@@ -2,7 +2,7 @@
 
 import { useAuth } from '@/contexts/AuthContext';
 import { useRouter } from 'next/navigation';
-import { User, Mail, Phone, MapPin, Calendar, Edit } from 'lucide-react';
+import { User, Mail, MapPin, Edit } from 'lucide-react';
 
 export default function ProfilePage() {
   const { user } = useAuth();

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Book } from '@/types';
 import BookCard from '@/components/BookCard';
@@ -40,15 +40,7 @@ export default function SearchPage() {
     fetchCategories();
   }, []);
 
-  useEffect(() => {
-    if (searchQuery.trim()) {
-      searchBooks();
-    } else {
-      setBooks([]);
-    }
-  }, [searchQuery, selectedCategory, sortBy, sortOrder]);
-
-  const searchBooks = async () => {
+  const searchBooks = useCallback(async () => {
     setLoading(true);
     try {
       const params = new URLSearchParams();
@@ -67,7 +59,15 @@ export default function SearchPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [searchQuery, selectedCategory, sortBy, sortOrder]);
+
+  useEffect(() => {
+    if (searchQuery.trim()) {
+      searchBooks();
+    } else {
+      setBooks([]);
+    }
+  }, [searchQuery, searchBooks]);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
